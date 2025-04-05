@@ -35,7 +35,7 @@ Insights: **_**
 Both **Misaki** and **Bryant** were involved in selecting datasets, with each examining 1 dataset before the final dataset was selected for use.
 **Misaki** was responsible for all code related to the classification model.
 **Bryant** was responsible for all code related to the clustering model.
-**_** was responsible for interpreting the effect of different alpha values on the MSE and R^2 scores of the Ridge Regression Model, as well as discussing practical applications where each model would be more suitable.
+**_** was responsible for interpreting the relative accuracies of the two different models, as well as discussing practical applications where each model would be more suitable.
 **_** and **_** added text cells with explanations, such that the notebook had a smooth logical flow.
 **Bryant** was responsible for the overall project management, including the GitHub repository and submission of project.
 **Charlene** put together the slides and video.
