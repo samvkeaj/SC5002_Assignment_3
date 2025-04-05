@@ -16,7 +16,7 @@ Project: Here, we attempt to use **classification and clustering** to see if acc
 
 Briefly, the steps taken are as follows:
 
-Vetting of a few different datasets - some datasets were too huge, or had questionable integrity
+Vetting of 2 different datasets - 1 other dataset had questionable integrity and was also less interesting to us.
 Superficial check for missing values, by looking for empty strings or null values
 Deeper check of dataset for data integrity issues
 Data cleaning - removing certain rows, and imputing missing data for others
@@ -27,17 +27,14 @@ Conduct k-fold cross validation, and calculate performance metrics**
 Analysis and discussion of results
 Insights: **_**
 
-**Link to slides:** a
+**Link to slides:**
 
 **Individual Contributions:** (Clearly highlight the contributions of each team member in both the GitHub repository and the video)
 
-Both **_** and **_** were involved in selecting datasets, with a total of 2 datasets examined by **_** and 1 dataset examined by Yuen In before the final dataset was selected for use.
-**_** and **_** added text cells with explanations, such that the notebook had a smooth logical flow.
-**_** was responsible for handling missing values in the dataset.
-**_** was responsible for encoding categorical variables using One-Hot Encoding, and scaling numerical features using Min-Max Scaling.
-**_** was responsible for splitting the data into test and training data sets.
-**_** wrote the bulk of the code for Linear Regression, Ridge Regression, and k-fold cross validation, with adaptation of the code to the datasets done by Bryant.
-**_** was responsible for comparing the models using Mean Squared Error (MSE) and R² score, and analysing cases where Linear Regression overfits and where Ridge Regression helps prevent overfitting.
+Both **Misaki** and **Bryant** were involved in selecting datasets, with each examining 1 dataset before the final dataset was selected for use.
+**Misaki** was responsible for all code related to the classification model.
+**Bryant** was responsible for all code related to the clustering model.
 **_** was responsible for interpreting the effect of different alpha values on the MSE and R^2 scores of the Ridge Regression Model, as well as discussing practical applications where each model would be more suitable.
-**_** was responsible for the overall project management, including the GitHub repository.
-**_** and **_** put together the slides.
+**_** and **_** added text cells with explanations, such that the notebook had a smooth logical flow.
+**Bryant** was responsible for the overall project management, including the GitHub repository and submission of project.
+**Charlene** put together the slides and video.
