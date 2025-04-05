@@ -1,16 +1,17 @@
 # SC5002_Assignment_3
 
-Dataset: The dataset originates from a **_** setting. In this dataset, there is **_** data for many variables that have shown to be related to **_**. 
+Dataset: The dataset consists of 75000 images, of which there are 15000 images of 5 different varieties.
 
-There are **_** features in the dataset which provide valuable information related to **_**:
+Specifically, the images were of the Arborio, Basmati, Ipsala, Jasmine and Karacadag rice varieties.
 
-Feature 1: Description
-Feature 2: Description
- diabetes risk.
+These images were collated by a contributor on Kaggle, from a few different papers. The details of this can be found under Rice_Image_Dataset, Rice_Citation_Request.txt.
 
-Additionally, mimicking the complexities of data collection from **_** in real life, there exist certain measurements with no available data. This also presents an opportunity to utilise data cleaning and data imputation methods.
+These images are standardised as individual rice grains against a black background, taken with standardised lighting. This allows for the features of each rice grain to be more accurately captured. 
 
-Project: Here, we attempt to use **classification and clustering** to see if accurate patterns can be identified by **_**, . If the prediction proves to be reliable, then it means that there exists a feasible relationship between **_**. 
+Visually, rice grains usually contain features such as texture, shape, and color. This allows them to be classified and clustered.
+
+Project: Here, we attempt to use **classification and clustering** to see if each image can be clustered or classified accurately. For clustering, feature extraction using the VGG16 model was performed, and then the dimensionality of data was reduced, and fit to a KMeans model. For classification, a CNN model was trained on and evaluted with the images, with a 80-20 train-test split.
+
 
 **Steps taken:**
 
