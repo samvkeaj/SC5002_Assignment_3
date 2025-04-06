@@ -1,10 +1,12 @@
 While direct comparison via the same metric is not possible, general comparison between accuracy metrics specific to each model is possible. 
 The trained classification model is highly accurate - achieving accuracy scores of at least 99.7%. 
 
-Meanwhile, the clustering model is not very accurate, achieving a silhouette score of 0.17. This score did not improve significantly with 5-fold cv, different initial centroids, or different numbers of clusters. 
+Meanwhile, the clustering model is not very accurate, achieving a silhouette score of 0.17. This score did not improve significantly with 5-fold cv, 
+different initial centroids, or different numbers of clusters. 
 
-Given that the VGG16 model was trained on a large number of complex images, with a large number of classes, the feature extraction and hence clustering method used here
-might be better suited for more complex image clustering tasks. Also, it can easily be used on other tasks, as long as a suitable 
-feature extraction method is specified. Indeed, using a simpler feature extraction method, we were able to obtain a much better silhouette score with just 1/3rd of the images. 
+Given that the VGG16 model was trained on a large number of complex images, with a large number of classes, the feature extraction and hence clustering method used
+here might be better suited for more complex image clustering tasks. Also, it can easily be used on other tasks, as long as a suitable 
+feature extraction method is specified. Indeed, using a simpler feature extraction method, we were able to obtain a much better silhouette score with just
+1/3rd of the images. 
 
 Separately, the classification model here would be suitable for deployment on recognising the 5 specific rice varieties we have trained it on. 
