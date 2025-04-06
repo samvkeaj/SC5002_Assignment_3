@@ -28,7 +28,7 @@ Conduct k-fold cross validation, and calculate performance metrics**
 Analysis and discussion of results
 Insights: **_**
 
-**Link to slides:**
+**Link to slides:** https://entuedu-my.sharepoint.com/:p:/g/personal/misaki001_e_ntu_edu_sg/EcP2eWEWs-1ClXk1mwyrmx8BJSZXlExkdnn7XdKcBarhQQ?e=1cFcZS 
 
 **Individual Contributions:** (Clearly highlight the contributions of each team member in both the GitHub repository and the video)
 
@@ -38,4 +38,5 @@ Both **Misaki** and **Bryant** were involved in selecting datasets, with each ex
 **_** was responsible for interpreting the relative accuracies of the two different models, as well as discussing practical applications where each model would be more suitable.
 **_** and **_** added text cells with explanations, such that the notebook had a smooth logical flow.
 **Bryant** was responsible for the overall project management, including the GitHub repository and submission of project.
-**Charlene** put together the slides and video.
+**Charlene** put together most of the slides and video.
+**Bryant and Misaki** edited the slides according to what they would be presenting.
