@@ -23,15 +23,13 @@ Project: Here, we attempt to use **classification and clustering** to see if eac
 
 Briefly, the steps taken are as follows:
 
-Vetting of 2 different datasets - 1 other dataset had questionable integrity and was also less interesting to us.
-Superficial check for missing values, by looking for empty strings or null values
-Deeper check of dataset for data integrity issues
-Data cleaning - removing certain rows, and imputing missing data for others
-Creating function for model training, with built-in encoding of categorical values and scaling of numerical values
-Specifying input features and continous output (for **clustering only?**)
-**Perform train-test split, and calculate performance metrics (MSE and R2)
-Conduct k-fold cross validation, and calculate performance metrics**
-Analysis and discussion of results
+Vetting of 2 different datasets - 1 other dataset had questionable integrity and was also less interesting to us. <br> 
+Superficial check for missing values, by looking for any files that are not labelled with class <br>
+Data preprocessing - making directory for ease of working with images <br>
+Creating function for model training / feture extraction
+Perform train-test split, and calculate performance metrics (accuracy, silhouette score, V-measure) <br>
+Conduct k-fold cross validation, and calculate performance metrics <br>
+Analysis and discussion of results <br>
 
 **Link to slides:** https://entuedu-my.sharepoint.com/:p:/g/personal/misaki001_e_ntu_edu_sg/EcP2eWEWs-1ClXk1mwyrmx8BJSZXlExkdnn7XdKcBarhQQ?e=1cFcZS 
 
