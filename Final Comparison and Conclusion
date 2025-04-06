@@ -1,5 +1,5 @@
 While direct comparison via the same metric is not possible, general comparison between accuracy metrics specific to each model is possible. 
-The trained classification model is highly accurate - achieving accuracy scores of 
+The trained classification model is highly accurate - achieving accuracy scores of at least 99.7%. 
 
 Meanwhile, the clustering model is not very accurate, achieving a silhouette score of 0.17
 
