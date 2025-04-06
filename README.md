@@ -1,5 +1,11 @@
 # SC5002_Assignment_3
 
+Repository Organisation:
+Classification and Clustering notebooks are organised separately, due to them being done separately, and each of them being very long.
+Final Comparison and Conclusion has a short paragraph comparing the two different models. 
+The remaining .pth files and data.pk1 files are available, to help reduce the time taken if the code in the classification and clustering notebooks is to be run. 
+data.pk1 contains all the extracted features for the Clustering notebook, and can be used to skip the feature extraction step (by utilising the pickle load function).
+
 Dataset: The dataset consists of 75000 images, of which there are 15000 images of 5 different varieties.
 
 Specifically, the images were of the Arborio, Basmati, Ipsala, Jasmine and Karacadag rice varieties.
